@@ -1,1 +1,3 @@
 # Disabled-and-Abandoned
+
+A yearlong Austin American-Statesman investigation into a system aimed at providing community-based services for over a hundred thousand disabled Texans found it on the brink of collapse. Hundreds of thousands of Texans wait years on some of the nation’s longest waitlists to receive Medicaid-funded “waiver” services that provide an alternative to institutional care. But often when they do, they face a system plagued by disastrous underfunding, dire staffing shortages and a profound lack of oversight, which is placing both consumers and workers at risk of injury and death.
