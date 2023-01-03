@@ -62,7 +62,6 @@ h2 {
     line-height:1.5em;
     text-align:center;
     font-size: 2.5em;
-    /* justify-content: top; */
     vertical-align: top;
     position: relative;
 }
@@ -89,17 +88,19 @@ h2 {
     padding: 0 .2em;
 }
 
+.numbers span:first-of-type {
+    text-align:right;
+}
+
 @media (max-device-width: 480px) {
+    .numbers {
+        font-size: 2em;
+        padding: 0;
+    }
     .numbers span {
         font-size: 1rem;
-        padding: 0 .3em;
+        padding: 0;
     }
-}
-.numbers span:first-of-type {
-    text-align:right;
-}
-.numbers span:first-of-type {
-    text-align:right;
 }
   
 
@@ -107,9 +108,13 @@ h2 {
 .main {
     margin: auto;
     padding: 1.2em;
-    max-width: 45%;
+    max-width: 55%;
 }
-
+@media (max-device-width: 480px) {
+    .main {
+        max-width: 95%;
+    }
+}
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -122,6 +127,23 @@ iframe {
     margin: auto;
 }
 
-iframe.remove-padding {
-    padding-bottom: 0;
+iframe.first {
+    padding-top: 1em;
+    padding-bottom: 3.5em;
+    min-height: 420px;
+    max-height: 800px;
 }
+
+@media (max-width: 1700px) {
+    iframe.first {
+        height: 40em;
+    }
+}
+
+
+
+/* @media (max-device-width: 1090px) {
+    iframe.first {
+        height: 610px;
+    }
+} */
