@@ -129,7 +129,14 @@ iframe {
 
 iframe.first {
     padding-top: 1em;
-    padding-bottom: 2em;
-    height: 600px;
+    padding-bottom: 0;
+    width: 100%;
+    height:600px;
+}
+
+@media (min-width: 1700px) {
+    iframe.first {
+        height: 500;
+    }
 }
 
