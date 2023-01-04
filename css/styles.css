@@ -133,10 +133,3 @@ iframe.first {
     height: 600px;
 }
 
-@media only screen and (min-width: 1700px) {
-    iframe.first {
-        height: 450px;
-        padding-bottom: 3.5em;
-    }
-}
-
