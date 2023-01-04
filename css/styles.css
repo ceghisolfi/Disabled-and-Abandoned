@@ -132,3 +132,9 @@ iframe.first {
     padding-bottom: 0;
 }
 
+@media (max-device-width: 480px) {
+    iframe.first {
+        padding-bottom: 3em;
+    }
+}
+
