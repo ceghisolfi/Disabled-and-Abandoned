@@ -130,11 +130,20 @@ iframe {
 iframe.first {
     padding-top: 1em;
     padding-bottom: 3.5em;
-    /* height: 420px; */
+    height: auto;
+    min-height: 450px;
 }
 
 @media (max-width: 1700px) {
     iframe.first {
-        height: 40em;
+        min-height: 600px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    iframe.first {
+        min-height: 700px;
+        padding-bottom: 0;
     }
 }
