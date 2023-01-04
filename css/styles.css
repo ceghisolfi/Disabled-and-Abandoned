@@ -108,7 +108,7 @@ h2 {
 .main {
     margin: auto;
     padding: 1.2em;
-    max-width: 55%;
+    max-width: 60%;
 }
 @media (max-device-width: 480px) {
     .main {
