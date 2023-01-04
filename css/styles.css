@@ -130,7 +130,7 @@ iframe {
 iframe.first {
     padding-top: 1em;
     padding-bottom: 3.5em;
-    height: 420px;
+    /* height: 420px; */
 }
 
 @media (max-width: 1700px) {
@@ -138,11 +138,3 @@ iframe.first {
         height: 40em;
     }
 }
-
-
-
-/* @media (max-device-width: 1090px) {
-    iframe.first {
-        height: 610px;
-    }
-} */
